@@ -64,7 +64,7 @@ footer{
     margin-top:12%;
     justify-content: space-between;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
-    
+    text-shadow: 0.25em black;
     border-radius: 4px;
     border-bottom: solid 6px #aaa;
 }   
@@ -73,7 +73,7 @@ footer{
     text-decoration: none;
     color:black;
     font-size: 0.75em;
-   
+    
 }
 .side-menu a:hover{
     background-color: #dbdbdb;
