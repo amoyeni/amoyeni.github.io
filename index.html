@@ -1,44 +1,15 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>AdamTNO-Introduction</title>
-        <link rel="stylesheet" type="text/css" href="css/Indexstyle.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="side-menu">
-                <ul>
-                    <li><b><a href="#">Home</a></b></li>
-                    <li><b><a href="CV.html">CV</a></b></li>
-                    <li><b><a href="future.html">Future Projects</a></b></li>
-                    <li><b><a href="adventure.html">Adventure</a></b></li>
-                </ul>
-            </nav>
-            <nav class="Bigtitle">
-                <h1>Adam Moore</h1>
-            </nav>
-        </header>
-
-        <main>
-            
-            <div class= "First">
-            <p>Hello I am Adam and this is my web page for the web tech assignment which will use features of 
-                CSS, Javascript and HTML
-                i am creating 4 different sections of this webpage with different features on each of them
-            </p>
-
-        </div>
-        <div class= "photo">
-            <img src="me.jpg" class= "image" width="223" height="300" alt="Photo of me">
-            <div class ="slide">
-                <div class="text">This Is Me</div>
-            </div>
-        </div>
-
-        </main>
-
-        <footer><p>&copy;Adam Moore 2021</p></footer>
+<html>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.6/aframe/build/aframe-ar.js"></script>
+    <body style='margin : 0px; overflow: hidden;'>
+        <a-scene embedded arjs>
+             <a-marker preset="hiro">
+                  <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+             </a-marker>
+             <a-entity camera></a-entity>
+        </a-scene>
     </body>
- </html>
+</html>
+
+
+
