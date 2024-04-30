@@ -15,8 +15,13 @@
                 <img id="pontio" src="pontioscore.png">
               </a-assets>
 
-            <a-image src="#pontio" width="30" height="30" gps-entity-place="latitude: 53.222282; longitude: -4.132859" look-at="[gps-camera]"></a-image>
 
+            <a-text
+            value="This content will always face you."
+            look-at="[gps-camera]"
+            scale="120 120 120"
+            gps-entity-place="latitude: 53.222282; longitude: -4.132859;"
+            ></a-text>
 
             <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5'>
             </a-camera>
