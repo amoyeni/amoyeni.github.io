@@ -13,12 +13,11 @@
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
             
             <a-assets>
-                <img id="my-image" src="image.JPG">
+                <img id="gradeb" src="gradeb.jpg">
 
               </a-assets>
-              <a-gltf-model src="maple_tree/tree.gltf" scale="0.1 0.1 0.1" gps-entity-place="latitude: 53.222282; longitude: -4.132854"></a-gltf-model>
 
-
+            <a-image src="#gradeb" width="612" height="612"gps-entity-place="latitude: 53.222282; longitude: -4.132854"></a-image>
         
             <a-camera gps-camera rotation-reader>
             </a-camera>
