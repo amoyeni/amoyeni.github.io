@@ -14,9 +14,9 @@
             <a-assets>
                 <img id="pontio" src="pontioscore.png">
               </a-assets>
-
+              <!-- gps-entity-place="latitude: 53.222282; longitude: -4.132859"-->
     
-            <a-entity position="0 0 -5" gps-entity-place="latitude: 53.222282; longitude: -4.132859" look-at="[gps-camera]">
+            <a-entity position="0 0 -5"  look-at="[gps-camera]">
                 <a-box position="-2 0 0" depth="0.5" height="3.1" width="0.5" color="blue"></a-box> 
                 <a-text value="Value: GIA(m2)" position="-2 1.5 0" align="center"></a-text>
                 
@@ -26,12 +26,15 @@
                 <a-box position="2 0 0" depth="0.5" height="53" width="0.5" color="red"></a-box>
                 <a-text value="Value: Electricity kWh 2020" position="2 2 0" align="center"></a-text>
                   
-                <a-box position="2 0 0" depth="0.5" height="17" width="0.5" color="green"></a-box>
+                <a-box position="4 0 0" depth="0.5" height="17" width="0.5" color="green"></a-box>
                 <a-text value="Value: Renewable/CHP kWh 2020" position="2 2 0" align="center"></a-text>
 
                 </a-entity>
             
-
+                <a-entity line="start: -3 0 0; end: 3 0 0; color: black"></a-entity>
+                <!-- Y-axis -->
+                <a-entity line="start: 0 -1 0; end: 0 3 0; color: black"></a-entity>
+          
 
 
             <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5'>
