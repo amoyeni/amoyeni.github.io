@@ -1,15 +1,37 @@
 <html>
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.6/aframe/build/aframe-ar.js"></script>
-    <body style='margin : 0px; overflow: hidden;'>
-        <a-scene embedded arjs>
-             <a-marker preset="hiro">
-                  <a-box position='0 0.5 0' material='color: yellow;'></a-box>
-             </a-marker>
-             <a-entity camera></a-entity>
+    <body style='margin: 0; overflow: hidden;'>
+        <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+            <a-box color="yellow" gps-entity-place="latitude: 53.227692; longitude: -4.130305"/>
+            <a-camera gps-camera rotation-reader>
+            </a-camera>
         </a-scene>
+
+
+        <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+            <a-entity text="value: Hello World;" gps-entity-place="latitude: 53.227692; longitude: -4.130305"></a-entity>
+            <a-camera gps-camera rotation-reader>
+            </a-camera>
+        </a-scene>
+
+        <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+            <a-box color="yellow" gps-entity-place="latitude: 53.227692; longitude: -4.130305"/>
+            <a-camera gps-camera rotation-reader>
+            </a-camera>
+        </a-scene>
+
+        <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+            <a-box color="yellow" gps-entity-place="latitude: 53.227692; longitude: -4.130305"/>
+            <a-camera gps-camera rotation-reader>
+            </a-camera>
+        </a-scene>
+
+
+    
     </body>
 </html>
+
 
 
 

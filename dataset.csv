@@ -1,0 +1,67 @@
+﻿Building Ref,Building Name,GIA (m2),Gas kWh 2020,Electricity kWh 2020,Renewable/CHP 2020 (kWh)
+A021,Craig Mair,"3,190","248,553","233,754",NA
+A012 / A015,Westbury Mt,2023,"231,521","186,482",NA
+,,(1181+842),,,
+A022,Marine Centre Wales,"1,888","379,469","404,643","4,746.70"
+,,,,,
+L115,SEECS Building,"9,779","1,120,750","616,564",NA
+,,,,,
+L133,Adeilad Deiniol,"4,805","403,104","295,382",NA
+R209,Thoday Building,"5,601","242,064","407,043","17,835.78"
+R212,Wheldon Building,"3,182","231,111","52,858","16,990.57"
+R215,Adeiliad Alun Roberts,"6,454","971,091","787,069",NA
+R227,Memorial Building,"2,901","99,415","119,646",NA
+R235,Environment Centre Wales,"3,717","406,653","467,204","17,143.00"
+R239,Brambell Building,"6,773","193,551","726,053","14,443.77"
+,Robinson/Academi,"1,512","117,343","80,728",NA
+,Pontio,"12,942","940,233","1,129,356",NA
+,,,,,
+R611 / R612,Gymnasium / Sports Hall,"1,725","224,294","18,434",NA
+,,(825+900),,,
+R613/R615/R617,Nantlle/Library/Hiraethog,"4,728","687,116","175,805",NA
+,,(1909+2065+754),,,
+R605,Adeiliad George,"2,388","306,839","79,320",NA
+,,,,,
+L246,Bryn Eithin K & L Block,"1,394","172,862","31,722",NA
+L247 ,Bryn Eithin J Block              ,693,"85,998","15,781",NA
+L250,Tudno 1 - 7 (Blocks P-S),"1,869","267,311","46,088","Gas input to CHP: 65672.4 m3, approx 736,885.92 kWh (184,221.48 kWh electricity, 471,606.99 kWh heat)"
+L257,Tudno 9 - 14 (Blocks F - N),"4,420","632,593","108,496",
+L263,Cybi ( Block E ),"2,413","345,116","72,807",
+L264,Cemlyn ( Block D ),"2,793","399,465","94,159",
+L265,Penmon ( Block C ),"2,651","379,156","76,105",
+L224,Barlows ( Block B ),787,"112,560","94,185",
+L245,St Mary's Building ( Block A ),"3,076","439,941","104,772",
+,,,,,
+R106,Neuadd Garth,"6,502","468,258","112,057",NA
+R112,Neuadd Rathbone,"3,814","240,568","134,346",NA
+R127,Lloyd Building,"1,157","93,390","41,540",NA
+R139/R142/R145,Main/New Arts BuildingLibrary,"16,594","2,921,815","710,256",837.35
+,,"(10,223+4,463+1,908)",,,
+R147,Brigantia,"6,706","462,290","439,039",NA
+R502,Hen Goleg,"2,005","148,024","70,003",NA
+R506/07/08/09/10,Management Centre,"6,095 (1,504+1,012+1,018+1,283+1,278)","1,406,271","433,834",NA
+R511,JP Hall,"1,655","285,010","195,148",NA
+L303,Fron Heulog,"3,117","128,660","111,845",NA
+,,,,,
+L348,Ffriddoedd Refectory,"1,803","324,912","216,185",NA
+L466,Gwynant,"2,400",NA,"252,068",NA
+L465,Idwal,"1,678",NA,"176,164",NA
+L467,Braint,"1,416",NA,"148,763",NA
+L472,Adda,"1,050",NA,"110,234",NA
+L468,Llanddwyn,"3,078",NA,"299,411",NA
+L469,Glaslyn,"2,752",NA,"246,134",NA
+L470,"Aberffraw (""Ffraw"")","1,751",NA,"156,607",NA
+L471,Crafnant,"1,691",NA,"151,240",NA
+L359,JMJ Tegfan,"1,342","37,299","77,067",NA
+L358,JMJ Bryn Dinas,"2,785","77,406","176,895",NA
+L361,Cefn Y Coed,"3,912","108,729","300,797",NA
+L363,Y Borth,"4,126","114,705","360,729",NA
+L360,Y Glyder,"4,017","111,675","228,154",NA
+L362,Elidir,"2,243","62,369","197,302",NA
+L463,Alaw,"3,786",NA,"347,280",NA
+L462,Peris,"3,784",NA,"347,005",NA
+L461,Enlli,"3,692",NA,"338,568",NA
+L418,Neuadd Reichel,"4,752","773,481","330,403",NA
+L406,Canolfan Brailsford,"6,628","731,752","284,327","44,316.13"
+,,,,,
+W002,Cambrian House,"2,614","256,112","132,766",NA
