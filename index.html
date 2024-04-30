@@ -12,7 +12,9 @@
 
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
             <!--<a-box color="yellow" gps-entity-place="latitude: 53.2220383; longitude: -4.1332584"/> -->
-            <a-entity text="This is pontio" geometry="primitive:plane" gps-entity-place="latitude: 53.2220383; longitude: -4.1332584" ></a-entity>
+            
+            <a-entity gltf-model="#tree" scale="0.01 0.01 0.01" gps-entity-place="latitude: 53.2220383; longitude: -4.1332584"></a-entity>
+
             <a-camera gps-camera rotation-reader>
             </a-camera>
         </a-scene>
