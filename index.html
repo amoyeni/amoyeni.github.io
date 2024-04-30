@@ -11,14 +11,15 @@
 
 
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-            
             <a-assets>
                 <img id="pontio" src="pontioscore.png">
               </a-assets>
 
-            <a-image src="#pontio" width="100" height="100"gps-entity-place="latitude: 53.222282; longitude: -4.132854"></a-image>
-        
-            <a-camera gps-camera rotation-reader>
+            <a-image src="#pontio" width="100" height="100" gps-entity-place="latitude: 53.222282; longitude: -4.132859"></a-image>
+
+            <a-text value="Hello, World!" width="100" height="100" gps-entity-place="latitude: 53.222282; longitude: -4.132854"></a-text>
+
+            <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5'>
             </a-camera>
         </a-scene>
 
