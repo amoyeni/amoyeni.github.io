@@ -2,14 +2,6 @@
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.6/aframe/build/aframe-ar.js"></script>
     <body style='margin: 0; overflow: hidden;'>
-
-       <script  >
-        const pontio = ["Pontio","12,942","940,233","1,129,356","B","40"]
-        const weldon = ["R212","Wheldon Building","3,182","231,111","52,858","B","42"]
-        const flat = [53.2221818,-4.1330953]
-       </script>
-
-
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
             <a-assets>
                 <img id="pontio" src="pontioscore.png">
@@ -21,7 +13,7 @@
                 <a-asset-item id="Brambell" src="/gltfs/Brambell.gltf"></a-asset-item>
                 <a-asset-item id="Academi" src="/gltfs/Academi.gltf"></a-asset-item>
               </a-assets>
-              <!--Pontio 53.2265931, -4.130696 -->53.2282701
+              <!--Pontio 53.2265931, -4.130696 -->
               <a-image src="#pontio" width= "50" height= "50" gps-entity-place="latitude: 53.2265931; longitude: -4.1312408"></a-image>
               
 
