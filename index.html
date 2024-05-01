@@ -22,7 +22,7 @@
                 <a-asset-item id="Academi" src="/gltfs/Academi.gltf"></a-asset-item>
               </a-assets>
               <!--Pontio-->
-              <a-image src="#pontio" width="100" height="100"gps-entity-place="latitude: 53.2265931; longitude: -4.130696"></a-image>
+              <a-image src="#pontio" scale= "0.1 0.1 0.1" gps-entity-place="latitude: 53.2265931; longitude: -4.130696"></a-image>
               
 
               <!-- Weldon - Bad Attempt at a graph, text labels do not appear.-->
@@ -41,9 +41,9 @@
                
 
                 </a-entity>
-                <a-gltf-model src="#Adeilad" scale="2,3,3"  gps-entity-place="latitude: 53.222282 ; longitude: -4.132859" ></a-gltf-model>
+                <a-gltf-model src="#Adeilad"  gps-entity-place="latitude: 53.222282 ; longitude: -4.132859" look-at="[camera]"></a-gltf-model>
             <!--GIA 53.2256125,-4.1317274--> 
-            <a-gltf-model src="#Adeilad" scale="2,3,3" gps-entity-place="latitude: 53.2256125 ; longitude: -4.1317274" ></a-gltf-model>
+            <a-gltf-model src="#Adeilad"  gps-entity-place="latitude: 53.2256125 ; longitude: -4.1317274" ></a-gltf-model>
 
             <!--Thoday Building 53.2265208,-4.1307785-->
             <a-gltf-model src="#Thoday" gps-entity-place="latitude: 53.2265208 ; longitude: -4.1307785" ></a-gltf-model>
@@ -61,7 +61,7 @@
             <a-gltf-model src="#Academi" gps-entity-place="latitude: 53.2260738 ; longitude: -4.1315888" ></a-gltf-model>
 
 
-            <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5'>
+            <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5' gps-
             </a-camera>
         </a-scene>
 
