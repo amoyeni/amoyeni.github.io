@@ -5,7 +5,7 @@
 
        <script  >
         const pontio = ["Pontio","12,942","940,233","1,129,356","B","40"]
-        const weldon = ["R212","Wheldon Building","3,182","231,111","52,858","B","42"]53.2265931,-4.130696
+        const weldon = ["R212","Wheldon Building","3,182","231,111","52,858","B","42"]
         const flat = [53.2221818,-4.1330953]
        </script>
 
@@ -13,9 +13,14 @@
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
             <a-assets>
                 <img id="pontio" src="pontioscore.png">
+                <a-asset-item id="Adeilad" src="/gltfs/Adeilad Deioniol.gltf"></a-asset-item>
+
               </a-assets>
-              <!--- -->
+              <!--Pontio-->
+              <a-image src="#pontio" width="100" height="100"gps-entity-place="latitude: 53.2265931; longitude: -4.130696"></a-image>
               
+
+              <!-- Weldon - Bad Attempt at a graph, text labels do not appear.-->
             <a-entity position="0 0 -10" gps-entity-place="latitude: 53.222282 ; longitude: -4.132859" >
                 <a-box position="0 0 0" depth="0.5" height="0.31" width="0.5" color="blue"></a-box> 
                 <a-text value="GIA(m2)" position="0 1.5 0" color="black" align="center"></a-text>
@@ -31,9 +36,24 @@
                
 
                 </a-entity>
-            
-                
-          
+                <a-gltf-model src="#Adeilad" gps-entity-place="latitude: 53.222282 ; longitude: -4.132859" ></a-gltf-model>
+            <!--GIA 53.2256125,-4.1317274--> 
+            <a-gltf-model src="#Adeilad" gps-entity-place="latitude: 53.2256125 ; longitude: -4.1317274" ></a-gltf-model>
+
+            <!--Thoday Building 53.2265208,-4.1307785-->
+            <a-gltf-model src="#Thoday" gps-entity-place="latitude: 53.2265208 ; longitude: -4.1307785" ></a-gltf-model>
+
+            <!--Adeilad Alun Roberts 53.2256009,-4.132572-->   
+            <a-gltf-model src="#AAR" gps-entity-place="latitude: 53.2256009 ; longitude: -4.132572" ></a-gltf-model>
+            <!--Environment Centre Wales 53.2255618,-4.1335205-->
+            <a-gltf-model src="#ECW" gps-entity-place="latitude: 53.2255618 ; longitude: -4.1335205" ></a-gltf-model>
+            <!--Memorial Building 53.2255372,-4.1319649-->
+            <a-gltf-model src="#memorial" gps-entity-place="latitude: 53.2255372 ; longitude: -4.1319649" ></a-gltf-model>
+            <!--Brambell Building 53.2249444,-4.1329489-->
+            <a-gltf-model src="#Brambell" gps-entity-place="latitude: 53.2249444 ; longitude: -4.1329489" ></a-gltf-model>
+
+            <!--Academi 53.2260738,-4.1315888-->
+            <a-gltf-model src="#Academi" gps-entity-place="latitude: 53.2260738 ; longitude: -4.1315888" ></a-gltf-model>
 
 
             <a-camera gps-camera rotation-reader gps-new-camera='gpsMinDistance: 5'>
